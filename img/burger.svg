@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="380" height="77" viewBox="0 0 380 77">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_371" data-name="Rettangolo 371" width="380" height="77" fill="#f0f0f0"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Tracciato_282" data-name="Tracciato 282" d="M95.783,17.931v8.884H100V16.944a8.5,8.5,0,0,0-1.067-4.47Zm-26.7-3.857a8.759,8.759,0,0,0-15.225-.54,8.754,8.754,0,0,0-15.348.8,8.759,8.759,0,0,0-14.87-1.505V11.043H13.382v4.531h5.974v3.344a7.82,7.82,0,0,1-5.807,2.63A8.433,8.433,0,0,1,5.9,16.814L3.164,21.548a12.958,12.958,0,0,0,9.874,4.383,11.521,11.521,0,0,0,6.939-2.557v2.337H23.63V20.3l2.579-4.468a4.963,4.963,0,1,1,.65,5.529L24.9,24.756A8.749,8.749,0,0,0,38.51,21.9l0,0,3.413-5.911a4.962,4.962,0,1,1,.736,5.381L40.7,24.765a8.736,8.736,0,0,0,10.659.57v1.229s0,.833,0,.9a4.961,4.961,0,1,1-9.922,0c0-.069.007-.833.01-.9h-3.8c0,.069-.01.833-.01.9a8.757,8.757,0,1,0,17.514,0c0-.032,0-.064,0-.1h.005V18.875l1.754-3.039a4.964,4.964,0,1,1,.65,5.529l-1.957,3.39a8.75,8.75,0,0,0,14.128-4.224l2.711-4.7a4.963,4.963,0,1,1,.65,5.529l-1.957,3.39a8.743,8.743,0,0,0,12.121-.672v2.732h4.185V18.348c0-2.833,1.674-4.926,4.507-4.958a4.123,4.123,0,0,1,2.264.6l2.169-3.757a10.2,10.2,0,0,0-4.289-.8c-2.8,0-4.392,1.158-4.652,2.122V9.592H83.259v2.571a8.758,8.758,0,0,0-14.181,1.912M13.769,0C5.99,0,0,5.588,0,12.929A13.4,13.4,0,0,0,.928,17.87l4.68-8.106a8.688,8.688,0,0,1,8.2-5.418,10.888,10.888,0,0,1,7.232,2.885l2.812-3.579A15.982,15.982,0,0,0,13.769,0Z" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_5" data-name="Raggruppa 5" clip-path="url(#clip-path)">
+    <rect id="Rettangolo_370" data-name="Rettangolo 370" width="380" height="336" fill="#fff" opacity="0"/>
+    <g id="Raggruppa_1944" data-name="Raggruppa 1944" transform="translate(20 21)">
+      <g id="Raggruppa_1922" data-name="Raggruppa 1922" clip-path="url(#clip-path-2)">
+        <rect id="Rettangolo_345" data-name="Rettangolo 345" width="100" height="36.222" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Raggruppa_1737" data-name="Raggruppa 1737" transform="translate(-3856.5 501.111)">
+      <line id="Linea_8" data-name="Linea 8" x2="20" transform="translate(4196.5 -469.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      <line id="Linea_9" data-name="Linea 9" x2="20" transform="translate(4196.5 -462)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      <line id="Linea_10" data-name="Linea 10" x2="20" transform="translate(4196.5 -454.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    </g>
+    <g id="Raggruppa_1987" data-name="Raggruppa 1987" transform="translate(-620 105)">
+      <text id="Info" transform="translate(828 197)" fill="#282828" font-size="18" font-family="Montserrat-Regular, Montserrat"><tspan x="-34.83" y="0">Info</tspan></text>
+      <text id="Cerca_un_viaggio" data-name="Cerca un viaggio" transform="translate(886 137)" fill="#282828" font-size="18" font-family="Montserrat-Regular, Montserrat"><tspan x="-150.84" y="0">Cerca un viaggio</tspan></text>
+      <text id="Crea_viaggio" data-name="Crea viaggio" transform="translate(867 77)" fill="#282828" font-size="18" font-family="Montserrat-Regular, Montserrat"><tspan x="-111.87" y="0">Crea viaggio</tspan></text>
+      <text id="Cos_è_Gogoon_" data-name="Cos’è Gogoon?" transform="translate(877 17)" fill="#282828" font-size="18" font-family="Montserrat-Regular, Montserrat"><tspan x="-133.11" y="0">Cos’è Gogoon?</tspan></text>
+    </g>
+  </g>
+</svg>
