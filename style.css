@@ -513,8 +513,20 @@ footer .social-c{
         animation: slid .6s ease-in-out .2s;
     }
     .s-1:active .card .slider{
-        opacity: 0;
+        opacity: 1;
         animation: slid .6s ease-in-out .2s;
     }
-   
+    @keyframes slid {
+        0%{
+            opacity: 0;
+        }
+        50%{
+            opacity: 1;
+
+        }
+        50%{
+            opacity: 0;
+
+        }
+    }
 }
