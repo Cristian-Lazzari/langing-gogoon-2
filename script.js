@@ -74,6 +74,15 @@ window.addEventListener('scroll', function() {
         l.forEach(element => {     
             element.classList.remove('l-scrolled');
         });
+    } else if (window.scrollY >= scrollHeight && navOpen) {
+        navbar.classList.add('navbar-scrolled');
+        navimg.classList.add('navimg-scrolled');
+        navlink.forEach(element => {     
+            element.classList.add('navlink-scrolled');
+        });
+        l.forEach(element => {     
+            element.classList.remove('l-scrolled');
+        });
     } else {
         navbar.classList.remove('navbar-scrolled');
         navimg.classList.remove('navimg-scrolled');
