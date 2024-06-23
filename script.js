@@ -37,7 +37,7 @@ function openNav(){
     }else{
         burg.classList.add('off');
         link.classList.remove('link-off');
-        if (window.scrollY >= scrollHeight) {
+       
             navbar.classList.add('navbar-scrolled');
             navimg.classList.add('navimg-scrolled');
             navlink.forEach(element => {     
@@ -46,16 +46,7 @@ function openNav(){
             l.forEach(element => {     
                 element.classList.remove('l-scrolled');
             });
-        } else {
-            navbar.classList.remove('navbar-scrolled');
-            navimg.classList.remove('navimg-scrolled');
-            navlink.forEach(element => {     
-                element.classList.remove('navlink-scrolled');
-            });
-            l.forEach(element => {     
-                element.classList.add('l-scrolled');
-            });
-        }
+        
         
     }  
 }
@@ -83,7 +74,7 @@ window.addEventListener('scroll', function() {
         l.forEach(element => {     
             element.classList.remove('l-scrolled');
         });
-    } else {
+    } else if (!navOpen) {
         navbar.classList.remove('navbar-scrolled');
         navimg.classList.remove('navimg-scrolled');
         navlink.forEach(element => {     
