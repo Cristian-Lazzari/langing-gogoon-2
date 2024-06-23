@@ -10,6 +10,9 @@
     --blue: #009ee3;
     --text: rgb(49, 49, 49);
 }
+input{
+    height: 54px;
+}
 .home{
     background-image: url('img/pexels-ivan-samkov-9630190.jpg');
     background-size: cover;
@@ -89,6 +92,9 @@
     margin: 0 auto;
     font-weight: 700;
 }
+.btn-scopri img{
+    fill: #fe196a;
+}
 .btn-classic{
     border: 1px solid white;
 }
@@ -153,15 +159,14 @@ nav a{
     .burg{
         display: flex;
         flex-direction: column;
-        gap: 9px;
-        width: 33px;
+        gap: 7px;
         position: fixed;
         top: 3rem;
         right: 3rem;
     }
     .l{
         height: 3px;
-        width: 35px;
+        width: 29px;
         border-radius: 10px;
         background-color: var(--text);
     }
@@ -190,11 +195,11 @@ nav a{
         align-items: flex-start;
     }
     #navimg{
-        margin: 2.3rem;
+        margin: 2rem;
         background-image: url('img/wm.svg');
-        width: 45px !important;
-        height: 45px !important;
-        max-width: 45px !important;
+        width: 35px !important;
+        height: 35px !important;
+        max-width: 35px !important;
     }
     .link-off{
         height: 0;
@@ -380,8 +385,8 @@ h3{
     margin: 30px 0 0;
 }
 .li .left, .li .right{
-    font-size: clamp(18px, 2.2vw, 18px);
     font-size: clamp(19px, 2.2vw, 19px);
+    color: rgba(10, 10, 10, 0.911);
     line-height: 160%;
     word-spacing: 2px;
     color: var(--text);
@@ -395,18 +400,18 @@ h3{
 
 footer{
     background-color: var(--blue);
-    padding: 260px 10px 190px;
+    padding: 200px  20px 100px;
     color: white;
     text-align: center;
 }
 footer .social-c{
-    max-width:65%;
+    max-width:60%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 35px;
+    gap: 32px;
     margin-top: 60px;
 }
 
@@ -420,7 +425,12 @@ footer .social-c{
     }
     .s-card{
         flex-direction: column !important;
-        background: linear-gradient( #F8286C, #876CB0, #39CBFE);
+    }
+    #sc1{
+        background: linear-gradient( #F8286C, #876CB0, #39CBFE);    
+    }
+    #sc2{
+        background: linear-gradient(#39CBFE , #876CB0, #F8286C);
     }
     #li{
         margin: 200px auto !important;
@@ -432,16 +442,21 @@ footer .social-c{
     }
     
     #sc1 .right{
-        height: clamp(150px, 33vh, 280px)!important;
+        height: clamp(300px, 45vh, 280px)!important;
     }
     #sc2 .right{
-        height: clamp(220px, 21vh, 260px)!important;
+        height: clamp(440px, 21vh, 260px)!important;
+    }
+    
+    #sc2 .right img{
+        height: clamp(440px, 21vh, 260px)!important;
+        top: 87%;
     }
     .s-card .left{
         padding: 3rem 2.3rem;
     }
     .s-card .right img{
-        max-height: 65%;
+        max-height: 50%;
         max-width: 100% !important;
         top: 94%;
         right: 50%;
@@ -465,5 +480,16 @@ footer .social-c{
     }
     #ccv{
         background-position:  bottom 50% left -340px;
+    }
+
+
+    .btn-classic{
+        background-color: white;  
+        color: var(--pink);
+        margin: 0 auto;
+        font-weight: 700;
+    }
+    .btn-classic img{
+        filter: drop-shadow(0 0 0 #fe196a);
     }
 }
