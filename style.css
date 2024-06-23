@@ -529,4 +529,7 @@ footer .social-c{
 
         }
     }
+    .card.last-c{
+        margin-left: auto;
+    }
 }
