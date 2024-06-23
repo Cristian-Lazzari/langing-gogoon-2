@@ -46,16 +46,17 @@
 .home .center{
     position: relative;
     z-index: 100; 
-    padding: 1rem;
+    padding: 2rem;
 }
 .home .center p{
 
     max-width: 500px;
     margin: 100px auto 30px;
-    font-size: clamp(15px, 2.4vw, 18px);
+    font-size: clamp(18px, 2.4vw, 18px);
+    font-weight: lighter;
 }
 .home .center h1{
-    font-size: clamp(30px, 7vw, 80px);
+    font-size: clamp(36px, 7vw, 80px);
     font-family: "Montserrat", sans-serif;
     position: relative;
     z-index: 300;
@@ -77,7 +78,7 @@
     text-decoration: none;
     border-radius: 400px;
     padding: .6em 1.2em;
-    font-size: clamp(16px, 2.5vw, 20px);
+    font-size: clamp(20px, 2.6vw, 20px);
     width: fit-content;
     display: flex;
     gap: 10px;
@@ -238,21 +239,19 @@ section{
     border-radius: 30px;
 }
 .s-1{
-    
-
-    background-image: url(img/linee_tratt.jpg);
+    background-image: url('img/linee_tratt.jpg');
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: top center; 
 }
 h2{
     font-family: "Montserrat", sans-serif;
-    font-size: clamp(35px, 5vw, 60px);
+    font-size: clamp(37px, 5vw, 60px);
     margin-bottom: 2rem;
 }
 h3{
     font-weight: 300;
     font-family: "Montserrat", sans-serif;
-    font-size: clamp(20px, 3vw, 40px);
+    font-size: clamp(23px, 3.1vw, 40px);
 }
 .s-1 .card-c{
     
@@ -282,14 +281,15 @@ h3{
     margin-top: auto;
 }
 .s-1 .card h3{
-    font-size: clamp(16px, 2.7vw, 28px);
+    font-size: clamp(23px, 2.7vw, 28px);
     color: var(--blue);
-    font-weight: 500;
+    font-weight: bold;
     margin-bottom: 10px;
 }
 .s-1 .card p{
-    font-size: clamp(13px, 2.2vw, 18px);
+    font-size: clamp(17px, 2.2vw, 18px);
     color: var(--text);
+    line-height: 170%;
 }
 .s-1-2{
     background-image: none !important;
@@ -307,11 +307,12 @@ h3{
     box-shadow: 8px 8px 36px rgba(0, 0, 0, 0.211);
 }
 .s-card .left h2{
-    font-size: clamp(20px, 3vw, 37px);
+    font-size: clamp(31px, 3.2vw, 37px);
     margin-bottom: 2rem;
+    font-weight: 600;
 }
 .s-card .left h3{
-    font-size: clamp(18px, 2.8vw, 33px);
+    font-size: clamp(27px, 3vw, 33px);
 }
 .s-card .left,
 .s-card .right{
@@ -325,7 +326,9 @@ h3{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: clamp(14px, 2.2vw, 19px);
+    font-size: clamp(19px, 2.2vw, 19px);
+    line-height: 160%;
+    word-spacing: 2px;
     font-weight: lighter;
 }
 .s-card .right img{
@@ -377,7 +380,10 @@ h3{
     margin: 30px 0 0;
 }
 .li .left, .li .right{
-    font-size: clamp(13px, 2.2vw, 18px);
+    font-size: clamp(18px, 2.2vw, 18px);
+    font-size: clamp(19px, 2.2vw, 19px);
+    line-height: 160%;
+    word-spacing: 2px;
     color: var(--text);
     justify-content: space-between;
     display: flex;
@@ -432,7 +438,7 @@ footer .social-c{
         height: clamp(220px, 21vh, 260px)!important;
     }
     .s-card .left{
-        padding: 2rem 2rem;
+        padding: 3rem 2.3rem;
     }
     .s-card .right img{
         max-height: 65%;
@@ -456,5 +462,8 @@ footer .social-c{
         width: 300px !important;
         scroll-snap-align: center;
 
+    }
+    #ccv{
+        background-position:  bottom 50% left -340px;
     }
 }
